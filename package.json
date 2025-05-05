@@ -1,0 +1,24 @@
+{
+  "name": "anagram-grouper",
+  "version": "1.0.0",
+  "description": "Groups anagrams using a hybrid sorted+graph-based strategy",
+  "type": "module",
+  "main": "lib/anagramGrouper.js",
+  "bin": {
+    "anagram-grouper": "bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js input.json"
+  },
+  "dependencies": {
+    "find-anagrams": "^1.1.0"
+  },
+  "keywords": [
+    "anagram",
+    "grouping",
+    "graph",
+    "cli"
+  ],
+  "author": "Ben Gumaan",
+  "license": "MIT"
+}
